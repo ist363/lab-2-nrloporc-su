@@ -1,0 +1,106 @@
+* {
+    margin: 10px;
+
+}
+
+html {
+    margin: auto;
+    padding: auto;
+    height: 100%;
+}
+
+body {
+    margin: auto;
+    padding: auto;
+    height: 100%;
+  
+}
+h1 {
+    height: 100px;
+}
+.big-blue {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.small-blue {
+    
+    flex-direction: horizontal;
+    background-color: blue;
+    height: 200px; 
+    width: 50%;   
+}
+
+.big-red {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.little-red {
+    flex-direction: horizontal;
+    background-color: red;
+    height: 200px;
+    width: 25%;
+
+}
+
+.medium-red {
+    flex-direction: horizontal;
+    background-color: red;
+    height: 200px;
+    width:50%;
+}
+
+.big-purple {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.little-purple {
+    flex-direction: horizontal;
+    background-color: plum;
+    height: 200px;
+    width: 25%;
+
+}
+
+.medium-purple {
+    flex-direction: horizontal;
+    background-color: plum;
+    height: 200px;
+    width:50%;
+}
+
+.big-green {
+    display: flex;
+    justify-content: space-between;
+}
+
+.medium-green {
+    background-color: greenyellow;
+    height: 200px;
+    width:33%;
+}
+
+.big-yellow {
+    display: flex;
+    
+}
+
+.little-yellow {
+    background-color: yellow;
+    height: 200px;
+    width: 25%;
+    align-items: flex-start;
+
+}
+
+.other-yellow {
+    background-color: yellow;
+    height: 200px;
+    width: 25%;
+    margin-left: auto;
+}
