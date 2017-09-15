@@ -2,12 +2,41 @@
     margin: 10px;
 
 }
-
-
-  
-}
-h1 {
+header {
     height: 100px;
+    width: 100%; 
+    background-color: pink;
+    position: fixed;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: auto;
+    height: 100%;
+}
+.body2 {
+    
+    margin: auto;
+    padding: auto;
+    height: 100%;
+}
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.big-gray {
+    flex-grow: 100%;
+    
+}
+
+.small-gray {
+    border-style: solid;
+    border-color: gray;
+    height: 200px;
+   
 }
 .big-blue {
     display: flex;
