@@ -12,10 +12,23 @@ header {
 .body {
     display: flex;
     flex-direction: column;
+    flex: 1 1 auto;
+    flex-basis: auto;
     margin: auto;
     padding: auto;
     height: 100%;
 }
+
+.medium-gray {
+    display: flex;
+    flex-direction: row;
+    border-color: gray;
+    background-color: red;
+    flex: 0 0 240px;
+    height: 100%;
+    width: 100%;
+}
+
 .body2 {
     
     margin: auto;
