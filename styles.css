@@ -18,14 +18,18 @@ header {
     padding: auto;
     height: 100%;
 }
+.gray-box{
+display: flex;
 
+}
 .medium-gray {
     display: flex;
     flex-direction: row;
     border-color: gray;
-    background-color: red;
+    border-style: dotted;
+    background-color: lightslategrey;
     flex: 0 0 240px;
-    height: 100%;
+    height: 400px;
     width: 100%;
 }
 
